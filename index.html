@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Four Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🎮 Connect Four</h1>
+
+    <div class="top-bar">
+        <div class="score">
+            🔴 Player 1:
+            <span id="player1Score">0</span>
+
+            |
+
+            🟡 Player 2:
+            <span id="player2Score">0</span>
+        </div>
+
+        <button id="themeBtn">🌙 Theme</button>
+    </div>
+
+    <h2>Player 1 (🔴) vs Player 2 (🟡)</h2>
+
+    <p id="status">Player 1's Turn</p>
+
+    <div id="board"></div>
+
+    <button class="restart-btn" onclick="restartGame()">
+        Restart Game
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
